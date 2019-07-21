@@ -1,0 +1,535 @@
+html, body, .container{
+  background-image: linear-gradient(0deg, rgba(22,35,82,1) 0%, rgba(22,35,82,1) 57%, #d5ebf2 63%, #d5ebf2 100%);
+  height: 230%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.day1{
+  height: 42%;
+  width: 100%;
+
+
+
+}
+
+.cloud{
+  width:20%;
+  height: auto;
+  opacity: .6;
+  position: absolute;
+
+}
+
+.position1{
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  animation: slide-around 30s linear infinite;
+}
+
+.position2{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  animation: slide-around 50s linear infinite;
+
+}
+
+.position3{
+  position: absolute;
+  top: 27%;
+  left: 15%;
+  animation: slide-around 20s linear infinite;
+}
+
+.sun{
+  width: 42%;
+  position: absolute;
+  left: 60%;
+  top: -7%;
+  opacity: .9;
+
+}
+
+@keyframes slide-around{
+  0% {
+    left:-200px
+
+  }
+  100% {
+    left:100%
+  }
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  50% { transform: scale(0.8); }
+  to { transform: scale(1); }
+}
+
+.text{
+  color: #2f2d73;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.0;
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 64%;
+  left: 20%;
+}
+
+.hi{
+  width: 43%;
+  position: absolute;
+  top: 50%;
+  left: 28.5%;
+}
+
+.dataviz_gallery{
+  width: 60%;
+  height:300%;
+  position: absolute;
+  top: 108%;
+  left: 20%;
+
+}
+
+.gallery1{
+  position: absolute;
+  width: 50%;
+  left: 5%;
+  border: 3px solid #2f2d73;
+  margin: 5px
+}
+
+.gallery2{
+  width: 35%;
+  border: 3px solid #2f2d73;
+  margin: 5px;
+  position: absolute;
+  top: 0%;
+  left: 58%;
+}
+
+.gallery3{
+  width: 35%;
+  border: 3px solid #2f2d73;
+  margin: 5px;
+  position: absolute;
+  top: 11%;
+  left: 58%;
+
+}
+
+.gallery4{
+  width: 45%;
+  border: 3px solid #2f2d73;
+  margin: 5px;
+  position: absolute;
+  top: 19%;
+  left: 5%;
+
+}
+
+.gallery5{
+  width: 35%;
+  border: 3px solid #2f2d73;
+  margin: 5px;
+  position: absolute;
+  top: 24.3%;
+  left: 58%;
+
+}
+
+.gallcaption{
+  color: #2f2d73;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.0;
+  position: absolute;
+  left: 15%;
+  top: 34.5%;
+  width: 70%;
+}
+
+a{
+  color: #2f2d73;
+  font-family: 'Nunito', sans-serif;
+}
+
+.click{
+  width: 20%;
+  position: absolute;
+  top: 97%;
+  right: 5%;
+  transform: rotate(15deg)
+}
+
+.nyhan{
+  color: #2f2d73;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.0;
+  position: absolute;
+  top: 41.5%;
+  left: 0%;
+  width: 98%;
+  height: auto;
+  border: 3px solid #2f2d73;
+}
+
+h2{
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.poster{
+  width: 85%;
+  border: 3px solid #2f2d73;
+  position: absolute;
+  top: 61%;
+  left: 7.5%;
+
+}
+
+.poster_caption{
+  color: #2f2d73;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.0;
+  position: absolute;
+  left: 10%;
+  top: 85%;
+  width: 80%;
+}
+
+.pennant{
+  width: 20%;
+  position: absolute;
+  top: 405%;
+  left: 5%;
+  transform: rotate(-20deg);
+}
+.dart_other{
+  color: #2f2d73;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2.0;
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 415%;
+  left: 20%;
+
+}
+
+.night{
+  width: 97.5%;
+  height: 620%;
+  position: absolute;
+}
+
+.moon{
+  width: 39%;
+}
+
+.bed{
+  width: 30%;
+  position: absolute;
+  top: 7%;
+  left: 35%
+}
+
+.star{
+  width: 2.5%;
+  position: absolute;
+  animation: pulse infinite;
+}
+
+
+
+.sky1{
+  left: 92%;
+  top: .5%;
+  animation-duration: 1.5s;
+}
+
+.sky2{
+  top: 1%;
+  left: 28%;
+  animation-duration: 3s;
+}
+
+.sky3{
+
+  left: 68%;
+  top: 3.8%;
+  transform: rotate(-15deg);
+  animation-duration: 1s;
+
+}
+
+.sky4{
+
+  top: 7%;
+  left: 85%;
+  animation-duration: 2s;
+
+}
+
+.sky5{
+  transform: rotate(35deg);
+  top: 10.8%;
+  left: 23%;
+  animation-duration: 2.5s;
+}
+
+.sky6{
+  left: 65%;
+  top: 6%;
+  transform: rotate(35deg);
+  animation-duration: 1.5s;
+}
+
+.sky7{
+  top: 5.4%;
+  left: 35%;
+  transform: rotate(-15deg);
+  animation-duration: 2s;
+}
+
+.sky8{
+  left: 83%;
+  top: 1.4%;
+  transform: rotate(15deg);
+  animation-duration: 3s;
+}
+
+.sky9{
+  top: 1.8%;
+  animation-duration: 1.5s;
+}
+
+.sky10{
+  left: 55%;
+  top: .3%;
+  transform: rotate(35deg);
+  animation-duration: 3.5s;
+}
+
+.sky11{
+  top: 3.8%;
+  left: 90%;
+  transform: rotate(35deg);
+  animation-duration: 1.75s;
+}
+
+.sky12{
+  top: 7%;
+  left: 66%;
+  transform: rotate(-5deg);
+  animation-duration: 2.5s;
+}
+
+.sky13{
+  left: 40%;
+  top: 4.8%;
+  animation-duration: 3.5s;
+}
+
+.sky14{
+  left: 70%;
+  top: .8%;
+  transform: rotate(15deg);
+  animation-duration: 2s;
+}
+
+.sky15{
+  left: 56%;
+  top: 2.5%;
+  animation-duration: 2.5s;
+}
+
+.shootingstar{
+  width: 5%;
+  position: absolute;
+  animation: pulse 2.7s infinite;
+}
+
+.sky16{
+  left: 80%;
+  top: 5%;
+  transform: rotate(45deg);
+  animation-duration: 1.5s;
+}
+
+.twoseventy{
+  position: absolute;
+  width: 60%;
+  top: 17.5%;
+  left: 22%;
+}
+
+.logo_270{
+  width: 70%;
+}
+
+.dark_text{
+  color: #ebe6d3;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  font-weight: 600;
+  line-height: 2.0;
+  margin: 30px;
+  font-size: 14px;
+}
+
+
+.skills{
+  width: 60%;
+
+  position: absolute;
+  top: 34%;
+  left: 22%;
+}
+
+.skills_header{
+  width: 50%;
+  margin-left:25%;
+  margin-right:25%;
+
+}
+
+.glossier{
+  position: absolute;
+  width: 60%;
+  top: 50.5%;
+  left: 22%;
+}
+
+.logo_glossier{
+  width: 50%;
+}
+
+.skills2{
+  width: 60%;
+  position: absolute;
+  top: 67.2%;
+  left: 22%;
+}
+
+.casper{
+
+  position: absolute;
+  width: 60%;
+  top: 83.5%;
+  left: 22%;
+}
+
+.logo_casper{
+  width: 50%;
+  margin-left: 2%;
+}
+
+.goodbye{
+  position: absolute;
+  width: 97.5%;
+  top: 1142%;
+
+}
+
+.signature{
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 3%;
+
+
+}
+
+.linkedin{
+  width: 7%;
+  margin-top: 15%;
+  margin-left: 36%;
+  margin-right: 13%;
+}
+
+.email{
+  width: 7.5%;
+  margin-top: 15%;
+  margin-right: 30%;
+}
+
+.position4{
+  position: absolute;
+  top: 15%;
+  left: 80%;
+}
+
+.position5{
+  top: 11%;
+  left: 20%
+}
+
+.position6{
+  top: 25%;
+  left: 3%;
+}
+
+.position7{
+  top: 42%;
+  left: 77%;
+}
+
+.position8{
+  top: 48%;
+  left: 0%;
+}
+
+.position9{
+  left: 75%;
+  top: 61%;
+}
+
+.position10{
+  top: 67%;
+  left: 2%;
+  transform: rotate(-10deg);
+}
+
+.position11{
+  top: 77%;
+  left: 15%;
+}
+
+.position12{
+  top: 85%;
+  left: 2%;
+}
+
+.position13{
+  top: 80%;
+  left: 80%;
+}
+
+.position14{
+  top: 98%;
+  left: 73%;
+}
+
+.position15{
+  top: 103%;
+  left: 17%;
+  transform: rotate(5deg);
+}
